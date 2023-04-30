@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="./static/batman.logo.png" rel="icon">
+
+    <style>
+        body {
+            background-image: url("./static/forest.background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            font-family: 'Sedgwick Ave Display', cursive;
+            font-size: 6rem;
+            color: rgb(0, 0, 0);
+            text-shadow: 2px 2px 4px #000000;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Sedgwick Ave Display', cursive;
+            font-size: 60px;
+            color: rgb(8, 56, 4);
+            text-shadow: 2px 2px 4px #000000;
+            text-align: center;
+        }
+
+        div p {
+            color: rgb(255, 255, 255);
+        }
+
+        div img {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kent Redford's Website</h1>
+    <p>Welcome to my homepage!</p>
+    <div style="display: flex; justify-content: space-around; align-items: center;">
+        <div>
+            <a href="./about">
+                <img src="./static/headshot.jpg" alt="About Me" width="300" height="300">
+            </a>
+            <p>About Me</p>
+        </div>
+        <div>
+            <a href="./resume">
+                <img src="./static/worker.symbol.jpg" alt="Resume" width="300" height="300">
+            </a>
+            <p>Resume</p>
+        </div>
+        <div>
+            <a href="./contact">
+                <img src="./static/phone.booth.jpg" alt="Contact Me" width="300" height="300">
+            </a>
+            <p>Contact Me</p>
+        </div>
+    </div>
+</body>
+
+</html>
