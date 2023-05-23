@@ -1,0 +1,3 @@
+- One of my first completed projects
+- created a website from scratch with the help of ChatGPT
+- created BE and FE
